@@ -1,0 +1,30 @@
+{
+  "name": "demo-three",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "three": "^0.166.1",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@types/gsap": "^3.0.0",
+    "@types/three": "^0.166.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "lil-gui": "^0.19.2",
+    "prettier": "^3.2.5",
+    "vite": "^5.3.1"
+  }
+}
